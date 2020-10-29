@@ -7,7 +7,6 @@ const Header = ({ siteTitle }) => {
   const navStyle = {
     color: "white",
     textDecoration: "none",
-    padding: "5px 0",
   }
   return (
     <header>

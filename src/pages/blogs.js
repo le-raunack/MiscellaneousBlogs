@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 const BlogsPge = () => (
   <Layout>
     <SEO title="All Blogs" />
-    <h1>All Blogs on the Site</h1>
+    <h1>Blog Listings</h1>
   </Layout>
 )
 
