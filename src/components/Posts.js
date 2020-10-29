@@ -1,16 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import Img from "gatsby-image"
+import "../components/layout.css"
 
-const Posts = ({ title, path, author, date, body }) => {
-  const cardStyle = {
-    boxShadow: "1px 1px 2px 1px gray",
-    padding: "5px",
-    margin: "10px 0"
-  }
+const Posts = ({ title, slug, author, date, body, fluid }) => {
   return (
-    <div className="post" style={cardStyle}>
-      <Link to={path}>
+    <div className="post">
+      <Img fluid={fluid} />
+      <Link to={slug}>
         <h2>{title}</h2>
       </Link>
       <span>
