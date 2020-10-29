@@ -6,9 +6,24 @@
 
 header{
     width: 100%;
-    text-align: center;
     background: rgba(25, 25, 25, 1);
-    padding: 5px 0px;
+}
+
+.nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.home{
+    flex: 0.8;
+}
+
+.nav-links{
+    flex: 0.1;
+    text-align: center;
 }
 
 main{
@@ -16,6 +31,4 @@ main{
     margin: 2px auto;
     padding: 5px 10px;
     min-height: 85vh;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
 }
