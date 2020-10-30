@@ -1,5 +1,6 @@
 import { graphql, StaticQuery } from "gatsby"
 import React from "react"
+import LatestPost from "../components/LatestPost"
 import Layout from "../components/layout"
 import Posts from "../components/Posts"
 import SEO from "../components/seo"
@@ -11,9 +12,10 @@ const IndexPage = () => (
       <StaticQuery
         query={indexQuery}
         render={data => {
-          return (
-            <div>
-              {data.allMarkdownRemark.edges.map(({ node }) => (
+          return (<>
+            <LatestPost node={data.allMarkdownRemark.edges[0].node}/>
+            <section class="posts-container">
+              {data.allMarkdownRemark.edges.slice(1,).map(({ node }) => (
                 <Posts
                   key={node.id}
                   title={node.frontmatter.title}
@@ -24,7 +26,7 @@ const IndexPage = () => (
                   fluid={node.frontmatter.image.childImageSharp.fluid}
                 />
               ))}
-            </div>
+            </section></>
           )
         }}
       />
@@ -51,6 +53,7 @@ const indexQuery = graphql`
               }
             }
           }
+          excerpt
           fields {
             slug
           }

@@ -54,11 +54,31 @@ header {
   margin: 5px 5px 5px 0px;
 }
 
+.posts-container {
+  display: flex;
+}
+
 .post {
-  border-bottom: 2px gray solid;
+  flex: 0.5;
+  box-shadow: 1px 1px 2px 1px gray;
   padding: 5px;
-  margin: 10px 0;
+  margin: 10px 5px;
   background: white;
+}
+
+.latest-post{
+    border: 1px ridge gray;
+    padding: 10px;
+    margin: 5px 0px;
+    position: relative;
+}
+
+.latest-post-head h2{
+    z-index: 1;
+    position: absolute;
+    bottom: 30%;
+    padding: 5px;
+    background-color: white;
 }
 
 .blog-title {

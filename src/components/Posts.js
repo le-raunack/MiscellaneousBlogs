@@ -13,7 +13,7 @@ const Posts = ({ title, slug, author, date, fluid, tags }) => {
         <Img fluid={fluid} />
       </Link>
       <Link to={slug}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </Link>
       <AuthorAndDate author={author} date={date} />
       <Tags tagsList={tags} />
