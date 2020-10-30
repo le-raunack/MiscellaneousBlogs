@@ -1,9 +1,10 @@
 import React from "react"
+import PropTypes from 'prop-types'
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-import "../components/layout.css"
+import "../components/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "../components/AuthorAndDate"
 
@@ -50,5 +51,9 @@ export const postQuery = graphql`
     }
   }
 `
+
+SinglePost.propTypes = {
+  data: PropTypes.object.isRequired
+}
 
 export default SinglePost

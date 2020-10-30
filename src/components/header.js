@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "./layout.css"
+import "./main.css"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -12,13 +12,13 @@ const Header = ({ siteTitle }) => {
             {siteTitle}
           </Link>
         </h1>
-        <Link to="/blogs" className="nav-links">
+        <Link to="/blogs" className="nav-links" activeClassName="active-link">
           Blogs
         </Link>
-        <Link to="/about" className="nav-links">
+        <Link to="/about" className="nav-links" activeClassName="active-link">
           About
         </Link>
-        <Link to="/tags" className="nav-links">
+        <Link to="/tags" className="nav-links" activeClassName="active-link">
           Tags
         </Link>
       </div>

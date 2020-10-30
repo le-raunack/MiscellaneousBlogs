@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {Link} from 'gatsby'
 import {slugify} from '../util/utilityFunctions'
 
@@ -12,6 +13,10 @@ function Tags({tagsList}) {
         ))}
       </article>
     )
+}
+
+Tags.propTypes = {
+  tagsList: PropTypes.object.isRequired
 }
 
 export default Tags

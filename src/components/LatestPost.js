@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from 'prop-types'
 import Img from "gatsby-image"
 import { Link } from "gatsby"
 import AuthorAndDate from "./AuthorAndDate"
@@ -19,6 +20,10 @@ const LatestPost = ({ node }) => {
         <p>{node.excerpt}</p>
     </section>
   )
+}
+
+LatestPost.propType={
+  node: PropTypes.object.isRequired
 }
 
 export default LatestPost

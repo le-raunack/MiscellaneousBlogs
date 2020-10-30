@@ -8,4 +8,4 @@ tags:
   - religion
 ---
 
-This is a second test blog titled "Opinions" (lmao) how about yall visit my <span class="link">[twitter](https://www.twitter.com/LeRaunack)</span>
+This is a second test blog titled "Opinions" (lmao) how about yall visit my <a href="https://www.twitter.com/LeRaunack" class="link">twitter</a>

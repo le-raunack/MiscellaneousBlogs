@@ -14,7 +14,7 @@ const IndexPage = () => (
         render={data => {
           return (<>
             <LatestPost node={data.allMarkdownRemark.edges[0].node}/>
-            <section class="posts-container">
+            <section className="posts-container">
               {data.allMarkdownRemark.edges.slice(1,).map(({ node }) => (
                 <Posts
                   key={node.id}
