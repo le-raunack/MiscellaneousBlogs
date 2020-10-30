@@ -7,27 +7,28 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Blog Home</h1>
-    <StaticQuery
-      query={indexQuery}
-      render={data => {
-        return (
-          <div>
-            {data.allMarkdownRemark.edges.map(({ node }) => (
-              <Posts
-                key={node.id}
-                title={node.frontmatter.title}
-                author={node.frontmatter.author}
-                date={node.frontmatter.date}
-                body={node.excerpt}
-                slug={node.fields.slug}
-                fluid={node.frontmatter.image.childImageSharp.fluid}
-              />
-            ))}
-          </div>
-        )
-      }}
-    />
+    <section className="main-container">
+      <StaticQuery
+        query={indexQuery}
+        render={data => {
+          return (
+            <div>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <Posts
+                  key={node.id}
+                  title={node.frontmatter.title}
+                  author={node.frontmatter.author}
+                  date={node.frontmatter.date}
+                  slug={node.fields.slug}
+                  tags={node.frontmatter.tags}
+                  fluid={node.frontmatter.image.childImageSharp.fluid}
+                />
+              ))}
+            </div>
+          )
+        }}
+      />
+    </section>
   </Layout>
 )
 
@@ -41,18 +42,18 @@ const indexQuery = graphql`
             title
             date(formatString: "MMM Do YYYY")
             author
-            image{
-              childImageSharp{
-                fluid(maxWidth: 800){
+            tags
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
           }
-          fields{
+          fields {
             slug
           }
-          excerpt
         }
       }
     }

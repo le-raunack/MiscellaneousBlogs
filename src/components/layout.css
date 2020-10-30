@@ -1,64 +1,110 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Segoe UI';
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI";
+  text-decoration: none;
 }
 
-header{
+*:visited {
+  color: inherit;
+}
+
+.link {
+  border-bottom: 3px cyan groove;
+}
+
+.link:hover {
+  border-bottom-color: blue;
+}
+
+header {
+  width: 100%;
+  color: black;
+  border-bottom: 5px ridge gray;
+  padding: 5px 0;
+  background: white;
+}
+
+.nav {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  flex: 0.7;
+}
+
+.nav-links {
+  flex: 0.1;
+  text-align: center;
+  height: 100%;
+  color: inherit;
+}
+
+.main-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.tag {
+  padding: 2px;
+  margin: 5px 5px 5px 0px;
+}
+
+.post {
+  border-bottom: 2px gray solid;
+  padding: 5px;
+  margin: 10px 0;
+  background: white;
+}
+
+.blog-title {
+  width: 60%;
+  font-size: 48px;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.blog-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.info {
+  width: 100%;
+  font-size: 16px;
+  font-style: italic;
+  padding: 8px 0;
+}
+
+.blog-matter {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#cover {
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .nav {
     width: 100%;
-    background: rgba(25, 25, 25, 1);
-    padding: 5px 0;
-}
-
-.nav{
-    height: 100%;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.home{
-    flex: 0.8;
-}
-
-.nav-links{
-    flex: 0.1;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .home {
     text-align: center;
-    height: 100%;
-}
-
-main{
-    width: 60%;
-    margin: 2px auto;
-    padding: 5px 10px;
-    min-height: 85vh;
-}
-
-.post{
-    box-shadow: 1px 1px 2px 1px gray;
-    padding: 5px;
-    margin: 20px 0;
-}
-
-.post-focus{
-    min-height: 80vh;
-}
-
-@media (min-width: 320px) and (max-width:600px){
-    .nav{
-        width: 100%;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    .home{
-        text-align: center;
-        grid-column: 1/3;
-        padding: 0;
-    }
-    .nav-links{
-        align-items: center;
-    }
+    grid-column: 1/3;
+    padding: 0;
+  }
+  .nav-links {
+    align-items: center;
+  }
 }

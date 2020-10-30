@@ -4,23 +4,22 @@ import React from "react"
 import "./layout.css"
 
 const Header = ({ siteTitle }) => {
-  const navStyle = {
-    color: "white",
-    textDecoration: "none",
-  }
   return (
     <header>
       <div className="nav">
-        <h1 style={navStyle} className="home">
+        <h1 className="home">
           <Link to="/" style={{ color: "inherit", textDecoration: "inherit" }}>
             {siteTitle}
           </Link>
         </h1>
-        <Link to="/blogs" style={navStyle} className="nav-links">
+        <Link to="/blogs" className="nav-links">
           Blogs
         </Link>
-        <Link to="/about" style={navStyle} className="nav-links">
+        <Link to="/about" className="nav-links">
           About
+        </Link>
+        <Link to="/tags" className="nav-links">
+          Tags
         </Link>
       </div>
     </header>
