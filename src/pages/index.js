@@ -1,6 +1,5 @@
 import { graphql, StaticQuery } from "gatsby"
 import React from "react"
-import LatestPost from "../components/LatestPost"
 import Layout from "../components/layout"
 import Posts from "../components/Posts"
 import SEO from "../components/seo"
@@ -8,25 +7,38 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="main-container">
+    <section>
       <StaticQuery
         query={indexQuery}
         render={data => {
-          return (<>
-            <LatestPost node={data.allMarkdownRemark.edges[0].node}/>
-            <section className="posts-container">
-              {data.allMarkdownRemark.edges.slice(1,).map(({ node }) => (
-                <Posts
-                  key={node.id}
-                  title={node.frontmatter.title}
-                  author={node.frontmatter.author}
-                  date={node.frontmatter.date}
-                  slug={node.fields.slug}
-                  tags={node.frontmatter.tags}
-                  fluid={node.frontmatter.image.childImageSharp.fluid}
-                />
-              ))}
-            </section></>
+          const lastestPost = data.allMarkdownRemark.edges[0].node
+          return (
+            <>
+              <Posts
+                key={lastestPost.id}
+                title={lastestPost.frontmatter.title}
+                author={lastestPost.frontmatter.author}
+                date={lastestPost.frontmatter.date}
+                slug={lastestPost.fields.slug}
+                tags={lastestPost.frontmatter.tags}
+                fluid={lastestPost.frontmatter.image.childImageSharp.fluid}
+                body={lastestPost.excerpt}
+                secName={`latest-post`}
+              />
+              <section className="posts-container">
+                {data.allMarkdownRemark.edges.slice(1).map(({ node }) => (
+                  <Posts
+                    key={node.id}
+                    title={node.frontmatter.title}
+                    author={node.frontmatter.author}
+                    date={node.frontmatter.date}
+                    slug={node.fields.slug}
+                    tags={node.frontmatter.tags}
+                    fluid={node.frontmatter.image.childImageSharp.fluid}
+                  />
+                ))}
+              </section>
+            </>
           )
         }}
       />

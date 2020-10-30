@@ -6,18 +6,21 @@ import "../components/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "./AuthorAndDate"
 
-const Posts = ({ title, slug, author, date, fluid, tags }) => {
+const Posts = ({ title, slug, author, date, fluid, tags, secName, body = "" }) => {
   return (
-    <div className="post">
+    <section className={secName || `post`}>
       <Link to={slug}>
         <Img fluid={fluid} />
       </Link>
+      <section style={{padding: `5px 8px`}}>
       <Link to={slug}>
         <h3>{title}</h3>
       </Link>
       <AuthorAndDate author={author} date={date} />
       <Tags tagsList={tags} />
-    </div>
+      <p>{body}</p>
+      </section>
+    </section>
   )
 }
 

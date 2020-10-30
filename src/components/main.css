@@ -20,13 +20,11 @@
 header {
   width: 100%;
   color: black;
-  box-shadow: 0px 2px 2px 1px gray;
-  background: white;
+  background: yellow;
   margin: 0px 0px 10px;
 }
 
 .nav {
-  height: 100%;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -41,56 +39,49 @@ header {
   flex: 0.1;
   text-align: center;
   color: inherit;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
-.active-link{
-  background: linear-gradient(white, white, lightgray);
-}
-
-.main-container {
-  width: 60%;
-  margin: 0 auto;
+.active-link {
+  background: linear-gradient(transparent, transparent, yellowgreen);
 }
 
 .tag {
   padding: 3px;
   margin: 0px 5px 5px 0px;
   border: none;
-  color: white;
   font-weight: bold;
-  background: rgb(50, 125, 200);
+  background: black;
+  color: yellow;
   border-radius: 3px;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.tag:hover {
+  background: yellow;
+  color: black;
+  transition: 0.2s;
 }
 
 .posts-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  padding: 0px 10px;
+  margin: 0 0 10px;
+  background-color: yellow;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 
 .post {
   grid-column: auto;
-  border: 1px solid gray;
-  padding: 5px;
   margin: 8px 5px;
   background: white;
 }
 
-.latest-post{
-    border: 1px ridge gray;
-    padding: 10px;
-    margin: 5px 0px;
-    position: relative;
-}
-
-.latest-post-head h2{
-    z-index: 1;
-    position: absolute;
-    bottom: 30%;
-    padding: 5px;
-    background-color: white;
+.latest-post {
+  width: 60%;
+  margin: 5px auto;
 }
 
 .blog-title {
@@ -107,7 +98,7 @@ header {
   background-color: white;
 }
 
-.blog-matter{
+.blog-matter {
   text-align: justify;
 }
 
