@@ -2,7 +2,7 @@
 title: "First Blog"
 date: 2020-10-29 20:30:00
 author: "Raunack"
-image: "../../images/cover.jpg"
+image: "../../images/favicon.png"
 tags:
   - code
   - design

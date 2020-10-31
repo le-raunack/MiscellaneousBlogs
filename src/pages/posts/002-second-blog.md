@@ -5,7 +5,7 @@ author: "Raunack"
 image: "../../images/cover.jpg"
 tags:
   - history
-  - religion
+  - civilization
 ---
 
 This is a second test blog titled "Opinions" (lmao) how about yall visit my <a href="https://www.twitter.com/LeRaunack" class="link">twitter</a>

@@ -1,22 +1,22 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {Link} from 'gatsby'
-import {slugify} from '../util/utilityFunctions'
+import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+import { slugify } from "../util/utilityFunctions"
 
-function Tags({tagsList}) {
-    return (
-        <article>
-        {tagsList.map(tag => (
-          <Link to={`/tags/${slugify(tag)}`}>
-            <button className="tag">{tag}</button>
-          </Link>
-        ))}
-      </article>
-    )
+function Tags({ tagsList }) {
+  return (
+    <article>
+      {tagsList.map(tag => (
+        <Link key={tag} to={`/tags/${slugify(tag)}`}>
+          <button className="tag">{tag}</button>
+        </Link>
+      ))}
+    </article>
+  )
 }
 
 Tags.propTypes = {
-  tagsList: PropTypes.object.isRequired
+  tagsList: PropTypes.array.isRequired,
 }
 
 export default Tags

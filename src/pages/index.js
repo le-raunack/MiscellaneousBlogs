@@ -15,9 +15,9 @@ const IndexPage = () => (
           return (
             <>
               <Intro />
-              <h2>Latest Blogs...</h2>
+              <h2>Latest Blogs</h2>
               <section className="posts-container">
-                {data.allMarkdownRemark.edges.map(({ node }) => (
+                {data.allMarkdownRemark.edges.slice(0,2).map(({ node }) => (
                   <Posts
                     key={node.id}
                     title={node.frontmatter.title}
@@ -25,7 +25,7 @@ const IndexPage = () => (
                     date={node.frontmatter.date}
                     slug={node.fields.slug}
                     tags={node.frontmatter.tags}
-                    fluid={node.frontmatter.image.childImageSharp.fluid}
+                    imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
                   />
                 ))}
               </section>
@@ -50,13 +50,12 @@ const indexQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid(maxWidth: 800) {
+                fluid(maxWidth: 512, maxHeight: 512) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
           }
-          excerpt
           fields {
             slug
           }

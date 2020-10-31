@@ -1,26 +1,30 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import Img from "gatsby-image"
 import "../components/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "./AuthorAndDate"
 
-const Posts = ({ title, slug, author, date, fluid, tags, secName, body = "" }) => {
+const Posts = ({ title, slug, author, date, imgSrc, tags }) => {
   return (
-    <section className={secName || `post`}>
-      <Link to={slug}>
-        <Img fluid={fluid}/>
-      </Link>
-      <section style={{padding: `5px 8px`}}>
-      <Link to={slug}>
-        <h3>{title}</h3>
-      </Link>
-      <AuthorAndDate author={author} date={date} />
-      <Tags tagsList={tags} />
-      <p>{body}</p>
+    <Link to={slug}>
+      <section className="post">
+        <img
+          src={imgSrc}
+          alt="Blog Cover"
+          width="256px"
+          height="256px"
+          id="blog-img"
+        />
+
+        <section className="blog-info">
+          <h3>{title}</h3>
+
+          <AuthorAndDate author={author} date={date} />
+          <Tags tagsList={tags} />
+        </section>
       </section>
-    </section>
+    </Link>
   )
 }
 
@@ -28,8 +32,9 @@ Posts.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
   body: PropTypes.string,
-  path: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
   date: PropTypes.string,
+  tags: PropTypes.array,
 }
 
 export default Posts

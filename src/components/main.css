@@ -11,11 +11,11 @@
 }
 
 .link {
-  border-bottom: 3px cyan groove;
+  border-bottom: 3px orange solid;
 }
 
 .link:hover {
-  border-bottom-color: blue;
+  border-bottom-color: orangered;
 }
 
 main {
@@ -49,7 +49,7 @@ header {
 }
 
 .active-link {
-  background: linear-gradient(transparent, transparent, lightgray);
+  background: linear-gradient(transparent, transparent, orange);
 }
 
 .index-page-cover {
@@ -92,67 +92,73 @@ header {
 .tag {
   padding: 3px;
   margin: 0px 5px 5px 0px;
-  border: none;
+  border: 1px solid;
   font-weight: bold;
-  background: black;
-  color: yellow;
-  border-radius: 3px;
   cursor: pointer;
   transition: 0.2s;
 }
 
 .tag:hover {
-  background: yellow;
-  color: black;
+  background: black;
+  color: white;
   transition: 0.2s;
 }
 
 .posts-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  column-gap: 10px;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 20px;
   row-gap: 10px;
-  padding: 0px 10px;
-  margin: 10px auto;
+  margin: 10px auto 128px;
 }
 
-.post{
-  grid-row: auto;
-  width: 80%;
-  margin: 0 auto;
+.post {
+  width: 100%;
+  grid-column: auto;
+  display: flex;
+  border-left: 10px solid transparent;
+  transition: 0.2s;
 }
 
-.blog-title {
+.post:hover{
+  transition: 0.2s;
+  border-left: 10px solid orange;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+
+#blog-img{
+  flex: 0.5;
+}
+
+.blog-info{
+  margin: 5px 10px;
+  width: 100%;
+}
+
+.blog-info h3{
+  margin: 0 0 20px;
+}
+
+#single-blog-title {
   font-size: 48px;
-  padding: 5px;
-  margin: 0 auto;
+  margin: 32px auto;
   background-color: white;
 }
 
-.blog-container {
-  margin: 0 auto;
+.single-blog-container {
+  margin: 10px auto;
   background-color: white;
 }
 
-.blog-matter {
+.single-blog-matter {
   text-align: justify;
-}
-
-.info {
-  width: 100%;
-  font-size: 16px;
-  font-style: italic;
-  padding: 0px 0 8px;
-}
-
-.blog-matter {
   font-size: 22px;
-  margin: 10px 0;
+  margin: 32px 0;
 }
 
-#cover {
-  width: 100%;
+.info{
+  margin: 10px 0;
+  font-style: italic;
 }
 
 @media (min-width: 320px) and (max-width: 600px) {

@@ -1,6 +1,6 @@
 import React from "react"
 import coverSrc from "../images/index-page-cover.png"
-import {Link }from 'gatsby'
+import { Link } from "gatsby"
 
 const Intro = () => {
   return (
@@ -22,13 +22,21 @@ const Intro = () => {
           interesting (as one does in blogs). And yes, the images next to this
           wall of text will have something to do with all this.
         </p>
-        <img src={coverSrc} id="index-cover" />
+        <img src={coverSrc} id="index-cover" alt="cover" />
       </section>
       <section className="intro-tags">
-          <Link to="/tags/religion"><li>Religion</li></Link>
-          <Link to="/tags/history"><li>History</li></Link>
-          <Link to="/tags/games"><li>Games</li></Link>
-          <Link to="/tags/code"><li>Code</li></Link>
+        <Link to="/tags/civilization">
+          <li>Civilization</li>
+        </Link>
+        <Link to="/tags/history">
+          <li>History</li>
+        </Link>
+        <Link to="/tags/games">
+          <li>Games</li>
+        </Link>
+        <Link to="/tags/code">
+          <li>Code</li>
+        </Link>
       </section>
     </React.Fragment>
   )

@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
@@ -13,16 +13,16 @@ const SinglePost = ({ data }) => {
   return (
     <Layout>
       <SEO title={post.title} />
-      <section className="post-focus">
-        <   p className="blog-title">{post.title}</p>
-        <Img fluid={post.image.childImageSharp.fluid} id="cover" />
-        <section className="blog-container">
+      <section>
+        <p id="single-blog-title">{post.title}</p>
+        <Img fluid={post.image.childImageSharp.fluid}/>
+        <section className="single-blog-container">
           <AuthorAndDate author={post.author} date={post.date} />
           <Tags tagsList={post.tags} />
-          <hr/>
+          <hr />
           <section
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-            className="blog-matter"
+            className="single-blog-matter"
           />
         </section>
       </section>
@@ -53,7 +53,7 @@ export const postQuery = graphql`
 `
 
 SinglePost.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 }
 
 export default SinglePost
