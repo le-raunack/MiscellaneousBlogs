@@ -2,7 +2,7 @@
 title: "Second Blog - Opinions"
 date: 2020-10-30 20:30:00
 author: "Raunack"
-image: ../../images/mb.jpg
+image: "../../images/cover.jpg"
 tags:
   - history
   - religion

@@ -3,6 +3,7 @@
   margin: 0;
   font-family: "Segoe UI";
   text-decoration: none;
+  color: black;
 }
 
 *:visited {
@@ -17,10 +18,15 @@
   border-bottom-color: blue;
 }
 
+main {
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
   width: 100%;
   color: black;
-  background: yellow;
   margin: 0px 0px 10px;
 }
 
@@ -39,11 +45,48 @@ header {
   flex: 0.1;
   text-align: center;
   color: inherit;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .active-link {
-  background: linear-gradient(transparent, transparent, yellowgreen);
+  background: linear-gradient(transparent, transparent, lightgray);
+}
+
+.index-page-cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  grid-template-rows: 1fr 2fr;
+  margin: 32px auto 0px;
+}
+
+#index-cover {
+  box-shadow: 4px 6px 4px 1px gray;
+  grid-column: 2;
+  grid-row: span 2;
+}
+
+.intro-tags {
+  margin: 128px auto;
+  display: grid;
+  list-style: none;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.intro-tags li {
+  padding: 50px 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(255, 140, 0);
+  opacity: 0.8;
+}
+
+.intro-tags li:hover {
+  background-color: rgba(255, 140, 0);
+  opacity: 1;
 }
 
 .tag {
@@ -66,26 +109,21 @@ header {
 
 .posts-container {
   display: grid;
-  padding: 0px 10px;
-  margin: 0 0 10px;
-  background-color: yellow;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 0px 10px;
+  margin: 10px auto;
 }
 
-.post {
-  grid-column: auto;
-  margin: 8px 5px;
-  background: white;
-}
-
-.latest-post {
-  width: 60%;
-  margin: 5px auto;
+.post{
+  grid-row: auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .blog-title {
-  width: 60%;
   font-size: 48px;
   padding: 5px;
   margin: 0 auto;
@@ -93,7 +131,6 @@ header {
 }
 
 .blog-container {
-  width: 60%;
   margin: 0 auto;
   background-color: white;
 }

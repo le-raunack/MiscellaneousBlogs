@@ -10,7 +10,7 @@ const Posts = ({ title, slug, author, date, fluid, tags, secName, body = "" }) =
   return (
     <section className={secName || `post`}>
       <Link to={slug}>
-        <Img fluid={fluid} />
+        <Img fluid={fluid}/>
       </Link>
       <section style={{padding: `5px 8px`}}>
       <Link to={slug}>
