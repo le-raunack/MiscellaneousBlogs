@@ -7,7 +7,7 @@ import AuthorAndDate from "./AuthorAndDate"
 
 const Posts = ({ title, slug, author, date, imgSrc, tags }) => {
   return (
-    <Link to={slug}>
+    <Link to={`/${slug}`}>
       <section className="post">
         <img
           src={imgSrc}

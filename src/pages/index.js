@@ -1,4 +1,4 @@
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery, Link } from "gatsby"
 import React from "react"
 import Intro from "../components/Intro"
 import Layout from "../components/layout"
@@ -28,6 +28,14 @@ const IndexPage = () => (
                     imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
                   />
                 ))}
+                <Link to="/blogs"><button style={{
+                  background: "orange",
+                  padding: "10px",
+                  fontWeight: "bold",
+                  border: "none",
+                  color: "white",
+                  cursor: "pointer"
+                }}>More blogs →</button></Link>
               </section>
             </>
           )

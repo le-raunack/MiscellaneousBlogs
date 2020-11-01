@@ -19,9 +19,9 @@
 }
 
 main {
-  min-height: 100vh;
   width: 80%;
   margin: 0 auto;
+  min-height: 80vh;
 }
 
 header {
@@ -114,6 +114,7 @@ header {
 
 .post {
   width: 100%;
+  margin: 10px 0;
   grid-column: auto;
   display: flex;
   border-left: 10px solid transparent;
