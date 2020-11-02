@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import {graphql} from "gatsby"
+import { graphql } from "gatsby"
 import Posts from "../components/Posts"
 
 const TagPost = ({ data, pageContext }) => {
@@ -12,18 +12,21 @@ const TagPost = ({ data, pageContext }) => {
   return (
     <section>
       <Layout>
-          <p>{pageHeader}</p>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Posts
-            key={node.id}
-            slug={node.fields.slug}
-            title={node.frontmatter.title}
-            author={node.frontmatter.author}
-            date={node.frontmatter.date}
-            tags={node.frontmatter.tags}
-            imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
-          />
-        ))}
+        <p>{pageHeader}</p>
+        <section className="sorted-by-tag">
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <Posts
+              key={node.id}
+              slug={node.fields.slug}
+              title={node.frontmatter.title}
+              author={node.frontmatter.author}
+              date={node.frontmatter.date}
+              tags={node.frontmatter.tags}
+              imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
+              clName="sorted-by-tag"
+            />
+          ))}
+        </section>
       </Layout>
     </section>
   )
@@ -45,7 +48,7 @@ export const tagQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 512, maxHeight: 512) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -6,16 +6,11 @@ const Intro = () => {
   return (
     <React.Fragment>
       <section className="index-page-cover">
-        <p style={{ fontSize: "48px" }}>
+        <p className="intro-heading">
           Blogs for anything I want to write about!
         </p>
         <p
-          style={{
-            gridColumn: "1",
-            gridRow: "2",
-            fontSize: "24px",
-            textAlign: "justify",
-          }}
+          className="intro-desc"
         >
           Welcome to my blog! Yeah, it's a little over the top but it's{" "}
           <em>my</em> blog and I love it. I will write on topics I find
@@ -26,17 +21,18 @@ const Intro = () => {
       </section>
       <section className="intro-tags">
         <Link to="/tags/civilization">
-          <li>Civilization</li>
+          <li className="tag">Civilization</li>
         </Link>
         <Link to="/tags/history">
-          <li>History</li>
+          <li className="tag">History</li>
         </Link>
         <Link to="/tags/games">
-          <li>Games</li>
+          <li className="tag">Games</li>
         </Link>
         <Link to="/tags/code">
-          <li>Code</li>
+          <li className="tag">Code</li>
         </Link>
+        <Link to="/tags"><button className="tag">More Tags →</button></Link>
       </section>
     </React.Fragment>
   )

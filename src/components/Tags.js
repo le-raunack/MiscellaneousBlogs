@@ -8,7 +8,7 @@ function Tags({ tagsList }) {
     <article>
       {tagsList.map(tag => (
         <Link key={tag} to={`/tags/${slugify(tag)}`}>
-          <button className="tag">{tag}</button>
+          <button className="tag-btn">{tag}</button>
         </Link>
       ))}
     </article>

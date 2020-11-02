@@ -9,21 +9,14 @@ const TagsPage = ({ pageContext }) => {
   return (
     <Layout>
       <SEO title="All Tags" />
-      <ul style={{display: "flex"}}>
+      <h3>Find blogs on these topics</h3>
+      <ul className="tags-page-container">
         {tags.map(tag => (
           <Link to={`/tags/${slugify(tag)}`} key={tag}>
-            <li
-              style={{
-                background: "orange",
-                margin: "10px",
-                padding: "15px",
-                listStyle: "none",
-                color: "white",
-              }}
-            >
+            <li className="tag">
               {tag}
               {`-`}
-              {tagPostCount[tag]}
+              {tagPostCount[tag]} {`post${tagPostCount[tag] === 1 ? `` : `s`}`}
             </li>
           </Link>
         ))}

@@ -2,12 +2,14 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Posts from "../components/Posts"
+import SEO from "../components/seo"
 
 function BlogsPage({ data }) {
   const post = data.allMarkdownRemark
-  console.log(post)
   return (
     <Layout>
+      <SEO title="All Blogs" />
+      <section className="all-blogs">
       {post.edges.map(({ node }) => (
         <Posts
           key={node.id}
@@ -19,6 +21,7 @@ function BlogsPage({ data }) {
           imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
         />
       ))}
+      </section>
     </Layout>
   )
 }
@@ -37,7 +40,7 @@ export const blogsQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 512, maxHeight: 512) {
                   ...GatsbyImageSharpFluid
                 }
               }

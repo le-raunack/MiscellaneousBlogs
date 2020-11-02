@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-import "../components/main.css"
+import "../components/CSS/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "../components/AuthorAndDate"
 
