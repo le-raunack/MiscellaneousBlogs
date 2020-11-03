@@ -2,7 +2,9 @@
 title: "Second Blog - Opinions"
 date: 2020-10-30 20:30:00
 author: "Raunack"
-image: "../../images/cover.jpg"
+image: 
+ - "../../images/cover.jpg"
+ - "../../images/person.png"
 tags:
   - History
   - Civilization

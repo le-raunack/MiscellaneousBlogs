@@ -21,6 +21,8 @@ exports.createPages = ({ actions, graphql }) => {
     tagsPage: path.resolve("src/templates/tags-page.js"),
     tagsPosts: path.resolve("src/templates/tag-posts.js"),
     blogsPage: path.resolve("src/templates/blogs-page.js"),
+    authorsPage: path.resolve("src/templates/authors.js"),
+    authorPosts: path.resolve("src/templates/author-posts.js")
   }
   return graphql(`
     {
@@ -63,6 +65,7 @@ exports.createPages = ({ actions, graphql }) => {
     })
     tags = _.uniq(tags)
 
+    //All tags page
     createPage({
       path: "/tags",
       component: templates.tagsPage,
@@ -72,6 +75,7 @@ exports.createPages = ({ actions, graphql }) => {
       },
     })
 
+    //Sorted by tags page
     tags.forEach(tag => {
       createPage({
         path: `/tags/${slugify(tag)}`,
@@ -80,12 +84,35 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
+    //All blogs page
     posts.forEach(({ node }) => {
-        createPage({
-          path: "/blogs",
-          component: templates.blogsPage,
-          
-        })
+      createPage({
+        path: "/articles",
+        component: templates.blogsPage,
       })
+    })
+
+    let authorNames = []
+    _.each(posts, edge => {
+      if (_.get(edge, "node.frontmatter.author"))
+        authorNames = authorNames.concat(edge.node.frontmatter.author)
+    })
+    authorNames = _.uniq(authorNames)
+
+    //All authors page
+    createPage({
+      path: `/authors`,
+      component: templates.authorsPage,
+      context: { authorNames },
+    })
+
+    //Sorted by authors page
+    authorNames.forEach(author => {
+      createPage({
+        path: `/authors/${slugify(author)}`,
+        component: templates.authorPosts,
+        context: { author },
+      })
+    })
   })
 }

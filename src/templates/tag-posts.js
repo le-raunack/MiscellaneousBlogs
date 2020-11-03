@@ -22,8 +22,10 @@ const TagPost = ({ data, pageContext }) => {
               author={node.frontmatter.author}
               date={node.frontmatter.date}
               tags={node.frontmatter.tags}
-              imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
-              clName="sorted-by-tag"
+              imgSrc={node.frontmatter.image
+                .slice(0, 1)
+                .map(i => i.childImageSharp.fluid.src)}
+              clName="sorted-by-author"
             />
           ))}
         </section>

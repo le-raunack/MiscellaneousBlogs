@@ -38,7 +38,7 @@ header {
 }
 
 .home {
-  flex: 0.8;
+  flex: 0.7;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -130,6 +130,7 @@ header {
 
 .posts-container,
 .sorted-by-tag,
+.sorted-by-author,
 .all-blogs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -199,6 +200,13 @@ footer {
   font-weight: bold;
 }
 
+.authors-container{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
 @media (min-width: 320px) and (max-width: 640px) {
   main {
     width: 90%;
@@ -252,6 +260,7 @@ footer {
     grid-row: 1;
     width: 100%;
     transform: scale(0.9, 0.9);
+    box-shadow: 0px 4px 6px 2px gray;
   }
 
   .intro-tags {

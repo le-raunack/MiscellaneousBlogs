@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-
     <StaticQuery
       query={indexQuery}
       render={data => {
@@ -25,7 +24,7 @@ const IndexPage = () => (
                   date={node.frontmatter.date}
                   slug={node.fields.slug}
                   tags={node.frontmatter.tags}
-                  imgSrc={node.frontmatter.image.childImageSharp.fluid.src}
+                  imgSrc={node.frontmatter.image[0].childImageSharp.fluid.src}
                 />
               ))}
               <Link to="/blogs">

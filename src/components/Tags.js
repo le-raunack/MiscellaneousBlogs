@@ -5,13 +5,13 @@ import { slugify } from "../util/utilityFunctions"
 
 function Tags({ tagsList }) {
   return (
-    <article>
+    <>
       {tagsList.map(tag => (
         <Link key={tag} to={`/tags/${slugify(tag)}`}>
           <button className="tag-btn">{tag}</button>
         </Link>
       ))}
-    </article>
+    </>
   )
 }
 

@@ -2,7 +2,9 @@
 title: "Fourth Blog - This"
 date: 2020-11-01 20:30:00
 author: "Raunack"
-image: "../../images/cover.jpg"
+image: 
+ - "../../images/cover.jpg"
+ - "../../images/person.png"
 tags:
   - History
   - Games

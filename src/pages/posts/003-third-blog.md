@@ -1,11 +1,13 @@
 ---
 title: "Third Blog - Art"
 date: 2020-10-31 20:30:00
-author: "Raunack"
-image: "../../images/cover.jpg"
+author: "XYZ"
+image:
+ - "../../images/cover.jpg"
+ - "../../images/noimage_person.png"
 tags:
-  - History
-  - Code
+  - Books
+  - Review
 ---
 
 This third post is about art and such. Yes. I think it does.
