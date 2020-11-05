@@ -4,7 +4,8 @@ import Layout from "../components/layout"
 import Posts from "../components/Posts"
 
 function AuthorPosts({ data, pageContext }) {
-  const {totalCount} = data.allMarkdownRemark
+  
+  const { totalCount } = data.allMarkdownRemark
   const { author } = pageContext
   const pageHeader = `${totalCount} post${
     totalCount === 1 ? `` : `s`
@@ -12,20 +13,21 @@ function AuthorPosts({ data, pageContext }) {
   return (
     <Layout>
       <p>{pageHeader}</p>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <Posts
-          key={node.id}
-          slug={node.fields.slug}
-          title={node.frontmatter.title}
-          author={node.frontmatter.author}
-          date={node.frontmatter.date}
-          tags={node.frontmatter.tags}
-          imgSrc={node.frontmatter.image
-            .slice(0, 1)
-            .map(i => i.childImageSharp.fluid.src)}
-          clName="sorted-by-tag"
-        />
-      ))}
+      <section className="sorted-by-author">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <Posts
+            key={node.id}
+            slug={node.fields.slug}
+            title={node.frontmatter.title}
+            author={node.frontmatter.author}
+            date={node.frontmatter.date}
+            tags={node.frontmatter.tags}
+            imgSrc={node.frontmatter.image
+              .slice(0, 1)
+              .map(i => i.childImageSharp.fluid.src)}
+          />
+        ))}
+      </section>
     </Layout>
   )
 }

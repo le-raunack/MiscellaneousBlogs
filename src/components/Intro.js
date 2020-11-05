@@ -9,13 +9,11 @@ const Intro = () => {
         <p className="intro-heading">
           Blogs for anything I want to write about!
         </p>
-        <p
-          className="intro-desc"
-        >
-          Welcome to my blog! Yeah, it's a little over the top but it's{" "}
-          <em>my</em> blog and I love it. I will write on topics I find
-          interesting (as one does in blogs). And yes, the images next to this
-          wall of text will have something to do with all this.
+        <p className="intro-desc">
+          Welcome to Miscellaneous Blogs! Yeah, we're aware it's little over the
+          top. The authors have individual opinions and are not accountable for
+          each other (yeet). And yes, the images next to this wall of text will
+          have something to do with all this.
         </p>
         <img src={coverSrc} id="index-cover" alt="cover" />
       </section>
@@ -32,7 +30,9 @@ const Intro = () => {
         <Link to="/tags/code">
           <li className="tag">Code</li>
         </Link>
-        <Link to="/tags"><button className="tag">More Tags →</button></Link>
+        <Link to="/tags">
+          <button className="tag">More Tags →</button>
+        </Link>
       </section>
     </React.Fragment>
   )

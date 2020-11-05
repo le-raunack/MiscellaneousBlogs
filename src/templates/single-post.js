@@ -7,6 +7,7 @@ import Img from "gatsby-image"
 import "../components/CSS/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "../components/AuthorAndDate"
+import LatestPosts from "../components/LatestPosts"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
@@ -15,16 +16,16 @@ const SinglePost = ({ data }) => {
       <SEO title={post.title} />
       <section>
         <p id="single-blog-title">{post.title}</p>
-        <Img fluid={post.image[0].childImageSharp.fluid}/>
+        <Img fluid={post.image[0].childImageSharp.fluid} />
         <section className="single-blog-container">
           <AuthorAndDate author={post.author} date={post.date} />
           <Tags tagsList={post.tags} />
-          <hr />
           <section
             dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
             className="single-blog-matter"
           />
         </section>
+        <LatestPosts />
       </section>
     </Layout>
   )

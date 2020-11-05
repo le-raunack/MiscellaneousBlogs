@@ -10,6 +10,11 @@
   color: inherit;
 }
 
+*::selection{
+  color: white;
+  background: rgb(255, 140, 0);
+}
+
 .link {
   border-bottom: 3px orange solid;
 }
@@ -157,7 +162,7 @@ header {
 }
 
 .blog-info {
-  margin: 5px 10px;
+  margin: 0px 10px;
   width: 100%;
 }
 
@@ -168,13 +173,15 @@ header {
 }
 
 .single-blog-container {
-  margin: 10px auto;
+  margin: 10px auto 64px;
   background-color: white;
+  border-bottom: 3px rgb(255, 140, 0) solid;
 }
 
 .single-blog-matter {
+  border-top: 3px rgb(255, 140, 0) solid;
   font-size: 22px;
-  margin: 32px 0;
+  margin: 32px 0 ;
 }
 
 .single-blog-matter::first-letter {
@@ -182,11 +189,12 @@ header {
 }
 
 .info {
-  margin: 10px 0;
+  margin: 0 0 10px;
   font-style: italic;
+  font-size: 16px;
 }
 
-.tags-page-container{
+.tags-page-container {
   display: flex;
   margin: 32px 0;
 }
@@ -200,7 +208,7 @@ footer {
   font-weight: bold;
 }
 
-.authors-container{
+.authors-container {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto;
@@ -222,13 +230,13 @@ footer {
     width: 100%;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 
   .home {
     text-align: center;
-    grid-column: 1/3;
+    grid-column: 1/4;
     padding: 0;
   }
 
@@ -270,51 +278,53 @@ footer {
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .posts-container, .all-blogs, .sorted-by-tag {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(2, 1fr);
+  .posts-container,
+  .all-blogs,
+  .sorted-by-tag,
+  .sorted-by-author {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
   }
 
-  .post{
+  .post {
     width: 100%;
     flex-direction: column;
     margin: 1rem auto;
     border: none;
   }
 
-  .post:hover{
+  .post:hover {
     border: none;
   }
 
-  #blog-img{
+  #blog-img {
     width: 100%;
     transform: scale(0.95, 0.95);
   }
 
-  .blog-info{
+  .blog-info {
     margin: 0;
     padding: 0px 10px;
   }
 
-  .tags-page-container{
+  .tags-page-container {
     max-width: 70%;
     margin: 32px auto;
     flex-direction: column;
   }
-  
-  #single-blog-title{
+
+  #single-blog-title {
     font-size: 30px;
     margin: 16px 0;
   }
 
-  .single-blog-matter{
+  .single-blog-matter {
     font-size: 18px;
   }
 
-  .single-blog-matter::first-letter{
+  .single-blog-matter::first-letter {
     font-size: 30px;
   }
 
- /*ADD MEDIA FOR MAX-WIDTH 800*/
-
+  /*ADD MEDIA FOR MAX-WIDTH 800*/
 }

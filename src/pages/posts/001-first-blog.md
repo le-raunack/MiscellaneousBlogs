@@ -1,14 +1,24 @@
 ---
-title: "First Blog"
-date: 2020-10-29 20:30:00
-author: "Raunack"
+title: "Sanatana Dharma: Religion or Civilization?"
+date: 2020-11-04 20:30:00
+author: "Raunack Tripathi"
 image: 
- - "../../images/favicon.png"
+ - "../../images/001cover.jpg"
  - "../../images/person.png"
 tags:
-  - Code
-  - Design
+  - Civilization
+  - History
 ---
 
-Welcome to the first blog of the Misc. Blogs website. This is a test blog by Raunack. Does this work?
-<a href="https://www.google.com" class="link">a link</a>
+History has always been a very intriguing subject. It's a portal to the past based on imprints left by natural forces or great civilizations and subsequently great empires. While remnants left by natural forces help us understand the Earth, the ones by civilizations help us understand the man of the past. Their behavior, society, beliefs et cetera. Any read through of history, and you shall come around some common names. Such as Romans, Greeks, Egyptians, Chinese and the Indians. While smaller civilizations existed everywhere like in parts of South Iraq, earlier known as Sumeria or the indigenous society of then undiscovered North America, the ones mentioned earlier have had a massive impacts in their respective regions and sometimes even dictate the the traditions that have been passed down to the present. While it is debatable which civilization came first, a rather unwarranted debate actually because of the difference of regions and cultures, all these civilizations have existed for millennia. But none of the earlier civilizations have survived to witness the present world or have their ethics survived. All except the Indian, or the Dharmic civilization.<br><br>
+
+It is agreed upon the fact that the region of Indus Valley, or Sindh as the ancient Indians called it, is the cradle of Indian Civilization. The society was built upon the rivers Sindhu and Saraswati. Hence it is also referred to as "Saraswati-Sindhu" Civilization. The cities of Harappa and Mohenjo-Daro were the first settlements of the civilization and have left their imprints not only in the area itself but other civilizations they had their relations with. Sometime later on, Rakhigarhi which lies in Kurukshetra became central to the civilization. Now, a baseless argument and a great misconception is that some time later, these settlements "vanished" from the face of the Ancient India and soon after the "Aryans invaded" the Northern regions of the sub-continent "bringing India it's culture". The Aryan Invasion theory has been debunked many times: archaeologically, genealogically, linguistically and all other -allies possible, and hence has been toned down to the "Aryan Migration" theory. What even? I will not shit on the theory here but you can just search for it on YouTube. You can watch these for starters: <a class="link" target="_blank" href="https://www.youtube.com/watch?v=1bsyi4zYHP0&t=2393s&ab_channel=SangamTalks">Presentation by Dr. Raj Vedam</a>, <a class="link" target="_blank" href="https://www.youtube.com/watch?v=tT05r8VF36g&ab_channel=SangamTalks">Presentation by Dr. Abhijit Chavda</a> and <a class="link" target="_blank"  href="https://www.youtube.com/watch?v=CUgoCNtldcQ&t=3s&ab_channel=Arth-ACultureFest">Panel Discussion about the theory</a>. <br><br>
+
+With the stupid stuff out of the way, let's get to the point. The Hindu civilization has been one of the most powerful civilizations throughout history. This is indicated by the numerous historic records which were made obscure by Western historians for a long time. Indians dominated the whole of South-Eastern Asia including countries like the present day Afghanistan (referred to as Gandhara in Hindu texts), Pakistan, Nepal, Bangladesh and parts of Myanmar, Bhutan, Cambodia, Indonesia and Philippines in later periods. And of course, including the present day India. Not only that, the Dharmic ethics of ancient India have influenced religions other part of Eastern Asia. A moderate-read of ancient Hindu texts clearly point to the fact that religious philosophy and social order were intermixed with each other and one influenced the other. A few instances include the **Itihasa** texts of Indian literature. Ithasa literally means "thus-it-happened" in Sanskrit and are regarded to have historical authority. The two Itihasa texts, Ramayana and Mahabharata are not only some of the greatest stories ever told but also historical records of how the society was in their times. The other scriptures such as the Vedas and Puranas have their own historical authenticity but their theological side is embraced more than the historical. A thorough read-through the corpus of Hindu literature helps us imagine the civilization of the old. Their behaviors, society, beliefs et cetera.<br><br>
+
+But in the times of now, these practices have been just rendered as a religion. There is indeed truth to that attribution but Ethics of War, A Social Order through the Varna-Jaati System, The Rules of Ruling, Preservation of Nature et cetera are all non-religious aspects of the society which are derived from the theology itself. These all strive for **Dharma**, a very nuanced word whose meaning and never be captured by western languages. A disregard of the Vedic principles would mean disregarding the entire civilization. And it's not as if the Indian Civilization was weak. It is strong. Kings and Emperors commanded large armies and dominated large portions of the nation. Yes, indeed, there was a nation. There was no centralized government (rather there have been Emperors who dominated the ancient land), but there was a common culture. From north to south, the civilization followed common ethics and did only differ in the names of kingdoms. They followed **Dharma**.<br><br>
+
+The sciences, art forms, languages, laws and life-style of the common man all derive themselves from the Vedic truth. Of course, that's not to say *literally every single thing* has it's basis in the Vedas but the most important aspects do. And these traditions have survived the onslaught of various invasions and foreign corruptions. The credit for this lies with none other but the Indians themselves. Common folk preserving their ways of life, Kings preserving common folk, the Acharyas preserving the Vedas amongst other things contributed to the survival of the culture. It sought this as their **Dharma**.<br><br>
+
+
+To be born in this civilization and realize it's grandeur, I believe it is my **Dharma** contribute in any way I can. How about writing a blogs on this topic for starters, eh?
