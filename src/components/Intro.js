@@ -7,7 +7,7 @@ const Intro = () => {
     <React.Fragment>
       <section className="index-page-cover">
         <p className="intro-heading">
-          Blogs for anything I want to write about!
+          Blogs for literally anything!
         </p>
         <p className="intro-desc">
           Welcome to Miscellaneous Blogs! Yeah, we're aware it's little over the
