@@ -27,8 +27,8 @@ const Intro = () => {
         <Link to="/tags/games">
           <li className="tag">Games</li>
         </Link>
-        <Link to="/tags/code">
-          <li className="tag">Code</li>
+        <Link to="/tags/reviews">
+          <li className="tag">Reviews</li>
         </Link>
         <Link to="/tags">
           <button className="tag">More Tags →</button>

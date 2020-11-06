@@ -22,7 +22,7 @@ exports.createPages = ({ actions, graphql }) => {
     tagsPosts: path.resolve("src/templates/tag-posts.js"),
     blogsPage: path.resolve("src/templates/blogs-page.js"),
     authorsPage: path.resolve("src/templates/authors.js"),
-    authorPosts: path.resolve("src/templates/author-posts.js")
+    authorPosts: path.resolve("src/templates/author-posts.js"),
   }
   return graphql(`
     {
@@ -93,11 +93,19 @@ exports.createPages = ({ actions, graphql }) => {
     })
 
     let authorNames = []
+    let authorImg = []
+
     _.each(posts, edge => {
       if (_.get(edge, "node.frontmatter.author"))
         authorNames = authorNames.concat(edge.node.frontmatter.author)
     })
+    // _.each(posts, edge => {
+    //   if (_.get(edge, "node.frontmatter.image"))
+    //     authorImg = authorImg.concat(edge.node.frontmatter.image)
+    // })
+
     authorNames = _.uniq(authorNames)
+    // authorImg = _.uniq(authorImg)
 
     //All authors page
     createPage({

@@ -179,13 +179,9 @@ header {
 }
 
 .single-blog-matter {
-  border-top: 3px rgb(255, 140, 0) solid;
   font-size: 22px;
-  margin: 32px 0 ;
-}
-
-.single-blog-matter::first-letter {
-  font-size: 44px;
+  padding: 10px 0;
+  margin: 16px 0 ;
 }
 
 .info {
@@ -282,7 +278,7 @@ footer {
   .all-blogs,
   .sorted-by-tag,
   .sorted-by-author {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
 
