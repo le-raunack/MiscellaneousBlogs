@@ -159,8 +159,6 @@ header {
 }
 
 #blog-img {
-  object-fit: none;
-  object-position: 90% 45% ;
   flex: 0.5;
 }
 
