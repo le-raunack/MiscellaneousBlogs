@@ -149,7 +149,6 @@ header {
   display: flex;
   border-left: 10px solid transparent;
   transition: 0.2s;
-  position: relative;
 }
 
 .post:hover {
