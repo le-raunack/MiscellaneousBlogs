@@ -3,11 +3,10 @@ title: "Building a Bharatiya Narrative - Why is it needed?"
 date: 2020-11-07 20:30:00
 author: "Raunack Tripathi"
 image: 
- - "../../images/covers/004cover.jpg"
+ - "../../images/004cover.jpg"
  - "../../images/person.png"
 tags:
   - Civilization
-  - History
 ---
 
 Centuries ago, the great souled Adi Shankara Acharya defeated the anti-vedic ideology with only his words and his exceptional command over the subject. Shankaracharya won the war of ideology.
@@ -29,5 +28,5 @@ These tragedies were all given a communal and casteist angle with how the facts 
 Now, the above mentioned incidents took place only in *this* year, 2020. These things have been happening since Bharat got her freedom and even before it. Hindus of the Bharatiya civilization look down on their history. Such misinformation has been deliberately institutionalized in education system and in entertainment media. An Indian woke liberal atheist, who may only be a Hindu because Indian Constitution does not recognize atheism, will not know anything beyond the oh, so oppressive caste system or the Sati tradition. Any discussion/debate with them about Bharat's ancestry and you shall be met with ill-informed internet bullies who will use the aforementioned traditions to bring down the culture and say how glorious and older other civilizations were.
 <br><br>
 In building a Bharatiya narrative, a case for Bharatiyas, one isn't being hypocritical. Calling out baseless finger pointing is not hypocrisy. Fighting misinformation is not hypocrisy. Showing the world the glory of Bharatiya civilization is not hypocrisy. A narrative for protecting Bharat, her timeless history, her civilization values and her people will not be hypocrisy.
-
+<br><br>
 *[to be continued]*

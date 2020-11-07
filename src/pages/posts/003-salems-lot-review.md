@@ -3,7 +3,7 @@ title: "A Review of Stephen King's 'Salem's Lot"
 date: 2020-11-06 20:30:00
 author: "Shubham Gupta"
 image: 
- - "../../images/covers/003cover.jpg"
+ - "../../images/003cover.jpeg"
  - "../../images/noimage_person.png"
 tags:
   - Reviews

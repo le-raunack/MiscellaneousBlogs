@@ -18,9 +18,7 @@ const BlogsPage = ({ data }) => {
             author={node.frontmatter.author}
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
-            imgSrc={node.frontmatter.image
-              .slice(0, 1)
-              .map(i => i.childImageSharp.fluid.src)}
+            imgSrc={node.frontmatter.image[0].childImageSharp.fluid.src}
           />
         ))}
       </section>

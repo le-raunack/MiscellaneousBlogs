@@ -10,6 +10,7 @@ function AuthorPosts({ data, pageContext }) {
   const pageHeader = `${totalCount} post${
     totalCount === 1 ? `` : `s`
   } authored by ${author}`
+  console.log(data.allMarkdownRemark.edges[0].node.frontmatter.image)
   return (
     <Layout>
       <p>{pageHeader}</p>
@@ -22,9 +23,7 @@ function AuthorPosts({ data, pageContext }) {
             author={node.frontmatter.author}
             date={node.frontmatter.date}
             tags={node.frontmatter.tags}
-            imgSrc={node.frontmatter.image
-              .slice(0, 1)
-              .map(i => i.childImageSharp.fluid.src)}
+            imgSrc={node.frontmatter.image[0].childImageSharp.fluid.src}
           />
         ))}
       </section>
