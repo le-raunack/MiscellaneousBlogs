@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
-import Img from "gatsby-image"
 import "../components/CSS/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "../components/AuthorAndDate"
@@ -16,7 +15,7 @@ const SinglePost = ({ data }) => {
       <SEO title={post.title} />
       <section>
         <p id="single-blog-title">{post.title}</p>
-        <Img fluid={post.image[0].childImageSharp.fluid} />
+        <img src={post.image[0].childImageSharp.fluid.src} alt="Blog Cover"/>
         <section className="single-blog-container">
           <AuthorAndDate author={post.author} date={post.date} />
           <Tags tagsList={post.tags} />

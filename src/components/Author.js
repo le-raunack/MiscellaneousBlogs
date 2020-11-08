@@ -8,7 +8,7 @@ const Author = ({ name, imgSrc }) => {
   return (
     <Link to={`/authors/${slugify(name)}`}>
       <section className="author">
-        <img src={imgSrc} alt="" width="256px" height="256px" />
+        <img src={imgSrc} alt="Blog author" width="256px" height="256px" />
         <h3>{name}</h3>
         <p>{description}</p>
       </section>

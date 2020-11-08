@@ -10,7 +10,6 @@ function AuthorPosts({ data, pageContext }) {
   const pageHeader = `${totalCount} post${
     totalCount === 1 ? `` : `s`
   } authored by ${author}`
-  console.log(data.allMarkdownRemark.edges[0].node.frontmatter.image)
   return (
     <Layout>
       <p>{pageHeader}</p>
