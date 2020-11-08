@@ -141,7 +141,7 @@ header {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   row-gap: 10px;
-  margin: 10px auto 128px;
+  margin: 10px auto 64px;
 }
 
 .post {

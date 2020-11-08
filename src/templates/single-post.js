@@ -7,6 +7,7 @@ import "../components/CSS/main.css"
 import Tags from "../components/Tags"
 import AuthorAndDate from "../components/AuthorAndDate"
 import LatestPosts from "../components/LatestPosts"
+import RandomPosts from "../components/RandomPosts.tsx"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
@@ -25,6 +26,7 @@ const SinglePost = ({ data }) => {
           />
         </section>
         <LatestPosts />
+        <RandomPosts/>
       </section>
     </Layout>
   )
