@@ -3,7 +3,13 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./CSS/main.css"
 
-const Header = ({ siteTitle }) => {
+interface HeaderProps {
+  siteTitle: string
+}
+
+const Header: React.FunctionComponent<HeaderProps> = ({
+  siteTitle,
+}: HeaderProps) => {
   return (
     <header>
       <div className="nav">
@@ -12,7 +18,11 @@ const Header = ({ siteTitle }) => {
             {siteTitle}
           </Link>
         </p>
-        <Link to="/articles" className="nav-links" activeClassName="active-link">
+        <Link
+          to="/articles"
+          className="nav-links"
+          activeClassName="active-link"
+        >
           Articles
         </Link>
         <Link to="/tags" className="nav-links" activeClassName="active-link">

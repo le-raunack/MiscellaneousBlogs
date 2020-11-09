@@ -2,7 +2,7 @@ import React from "react"
 import coverSrc from "../images/index-page-cover.png"
 import { Link } from "gatsby"
 
-const Intro = () => {
+const Intro: React.FC = () => {
   return (
     <React.Fragment>
       <section className="index-page-cover">

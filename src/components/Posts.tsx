@@ -5,7 +5,25 @@ import "../components/CSS/main.css"
 import Tags from "./Tags"
 import AuthorAndDate from "./AuthorAndDate"
 
-const Posts = ({ title, slug, author, date, imgSrc, tags, clName = "" }) => {
+interface PostsProps {
+  title: string
+  slug: string
+  author: string
+  date?: string
+  imgSrc: string
+  tags: string[]
+  clName?: string
+}
+
+const Posts: React.FC<PostsProps> = ({
+  title,
+  slug,
+  author,
+  date,
+  imgSrc,
+  tags,
+  clName = "",
+}: PostsProps) => {
   return (
     <Link to={`/${slug}`}>
       <section className={`post ${clName}`}>
@@ -30,8 +48,8 @@ Posts.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
   slug: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  tags: PropTypes.array,
+  date: PropTypes.string,
+  tags: PropTypes.array.isRequired,
 }
 
 export default Posts

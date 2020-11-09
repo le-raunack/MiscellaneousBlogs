@@ -1,6 +1,6 @@
 import React from "react"
-import Intro from "../components/Intro"
-import LatestPosts from "../components/LatestPosts"
+import Intro from "../components/Intro.tsx"
+import LatestPosts from "../components/LatestPosts.tsx"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 

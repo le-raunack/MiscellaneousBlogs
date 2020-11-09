@@ -3,7 +3,7 @@ title: "Sanatana Dharma: Religion or Civilization?"
 date: 2020-11-04 20:30:00
 author: "Raunack Tripathi"
 image: 
- - "../../images/001cover.jpg"
+ - "../../images/covers/001cover.jpg"
  - "../../images/person.png"
 tags:
   - Civilization

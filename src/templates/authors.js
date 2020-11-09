@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Author from "../components/Author"
+import Author from "../components/Author.tsx"
 import { graphql } from "gatsby"
 import _ from "lodash"
 

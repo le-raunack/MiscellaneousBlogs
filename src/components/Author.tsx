@@ -1,10 +1,19 @@
 import React from "react"
 import { slugify } from "../util/utilityFunctions"
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
 
-const Author = ({ name, imgSrc }) => {
-  let description = ""
-  if(name === "Raunack") description="He is cute"
+interface AuthorPageProps {
+  name: string
+  imgSrc: string
+}
+
+const Author: React.FunctionComponent<AuthorPageProps> = ({
+  name,
+  imgSrc,
+}: AuthorPageProps) => {
+  let description: string = ""
+  if (name === "Raunack") description = "He is cute"
   return (
     <Link to={`/authors/${slugify(name)}`}>
       <section className="author">
@@ -14,6 +23,11 @@ const Author = ({ name, imgSrc }) => {
       </section>
     </Link>
   )
+}
+
+Author.propTypes = {
+  name: PropTypes.string.isRequired,
+  imgSrc: PropTypes.string.isRequired,
 }
 
 export default Author

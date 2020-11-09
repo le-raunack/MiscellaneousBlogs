@@ -2,19 +2,20 @@ import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Posts from "./Posts"
 
-const RandomPosts = () => (
+const RandomPosts: React.FunctionComponent = () => (
   <StaticQuery
     query={randomPostsQuery}
     render={data => {
-      const totalPostCount: number = data.allMarkdownRemark.totalCount
+      const totalPostCount: number = data.allMarkdownRemark.totalCount - 2
       let rngOne: number = Math.floor(Math.random() * totalPostCount)
       let rngTwo: number = 0
       do {
         rngTwo = Math.floor(Math.random() * totalPostCount)
       } while (rngTwo === rngOne)
-      const post = []
-      post.push(data.allMarkdownRemark.edges[rngOne])
-      post.push(data.allMarkdownRemark.edges[rngTwo])
+      const post: any = [
+        data.allMarkdownRemark.edges[rngOne],
+        data.allMarkdownRemark.edges[rngTwo],
+      ]
       return (
         <>
           <h2>Also Read</h2>

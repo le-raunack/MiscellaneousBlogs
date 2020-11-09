@@ -1,9 +1,9 @@
 import { graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
-import Posts from "../components/Posts"
+import Posts from "../components/Posts.tsx"
 
-function AuthorPosts({ data, pageContext }) {
+const AuthorPosts = ({ data, pageContext }) => {
   
   const { totalCount } = data.allMarkdownRemark
   const { author } = pageContext

@@ -4,9 +4,9 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import "../components/CSS/main.css"
-import Tags from "../components/Tags"
-import AuthorAndDate from "../components/AuthorAndDate"
-import LatestPosts from "../components/LatestPosts"
+import Tags from "../components/Tags.tsx"
+import AuthorAndDate from "../components/AuthorAndDate.tsx"
+import LatestPosts from "../components/LatestPosts.tsx"
 import RandomPosts from "../components/RandomPosts.tsx"
 
 const SinglePost = ({ data }) => {

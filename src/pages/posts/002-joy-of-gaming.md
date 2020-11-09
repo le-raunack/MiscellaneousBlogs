@@ -3,7 +3,7 @@ title: "My Joy of Gaming"
 date: 2020-11-05 20:30:00
 author: "Raunack Tripathi"
 image: 
- - "../../images/002cover.jpg"
+ - "../../images/covers/002cover.jpg"
  - "../../images/person.png"
 tags:
   - Games

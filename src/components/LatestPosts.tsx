@@ -1,8 +1,8 @@
 import React from "react"
-import Posts from "../components/Posts"
+import Posts from "./Posts"
 import { graphql, Link, StaticQuery } from "gatsby"
 
-const LatestPosts = () => (
+const LatestPosts: React.FC = () => (
   <StaticQuery
     query={latestPostQuery}
     render={data => {

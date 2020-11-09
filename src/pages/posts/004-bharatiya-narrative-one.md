@@ -3,7 +3,7 @@ title: "Building a Bharatiya Narrative - Why is it needed?"
 date: 2020-11-07 20:30:00
 author: "Raunack Tripathi"
 image: 
- - "../../images/004cover.jpg"
+ - "../../images/covers/004cover.jpg"
  - "../../images/person.png"
 tags:
   - Civilization
