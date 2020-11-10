@@ -12,7 +12,6 @@ interface PostsProps {
   date?: string
   imgSrc: string
   tags: string[]
-  clName?: string
 }
 
 const Posts: React.FC<PostsProps> = ({
@@ -22,11 +21,10 @@ const Posts: React.FC<PostsProps> = ({
   date,
   imgSrc,
   tags,
-  clName = "",
 }: PostsProps) => {
   return (
     <Link to={`/${slug}`}>
-      <section className={`post ${clName}`}>
+      <section className="post">
         <img
           src={imgSrc}
           alt="Blog Cover"

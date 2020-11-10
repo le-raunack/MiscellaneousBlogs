@@ -16,7 +16,7 @@ const SinglePost = ({ data }) => {
       <SEO title={post.title} />
       <section>
         <p id="single-blog-title">{post.title}</p>
-        <img src={post.image[0].childImageSharp.fluid.src} alt="Blog Cover"/>
+        <img src={post.image[0].childImageSharp.fluid.src} alt="Blog Cover" id="single-blog-img"/>
         <section className="single-blog-container">
           <AuthorAndDate author={post.author} date={post.date} />
           <Tags tagsList={post.tags} />

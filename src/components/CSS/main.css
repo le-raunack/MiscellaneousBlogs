@@ -10,7 +10,7 @@
   color: inherit;
 }
 
-*::selection{
+*::selection {
   color: white;
   background: rgb(255, 140, 0);
 }
@@ -181,7 +181,7 @@ header {
 .single-blog-matter {
   font-size: 22px;
   padding: 10px 0;
-  margin: 16px 0 ;
+  margin: 16px 0;
 }
 
 .info {
@@ -196,12 +196,32 @@ header {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   background: rgb(255, 140, 0);
-  color: white;
-  text-align: center;
   padding: 20px 0px;
   width: 100%;
+  color: white;
+}
+
+footer span {
+  text-align: center;
+  color: inherit;
+  grid-column: 1;
   font-weight: bold;
+  font-size: 128px;
+}
+
+footer section {
+  padding: 10px;
+  color: inherit;
+  grid-column: 2;
+}
+
+footer section p{
+  color: inherit;
+  margin: 10px 0;
 }
 
 .authors-container {
@@ -314,12 +334,32 @@ footer {
     margin: 16px 0;
   }
 
+  #single-blog-img{
+    width: 320px;
+    height: 180px;
+  }
+
   .single-blog-matter {
     font-size: 18px;
   }
 
   .single-blog-matter::first-letter {
     font-size: 30px;
+  }
+
+  footer{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  footer span{
+    font-size: 96px;
+  }
+
+  footer section{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
   }
 
   /*ADD MEDIA FOR MAX-WIDTH 800*/

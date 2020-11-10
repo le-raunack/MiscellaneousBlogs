@@ -2,22 +2,22 @@
 title: "Building a Bharatiya Narrative - What is needed?"
 date: 2020-11-10 20:30:00
 author: "Raunack Tripathi"
-image: 
- - "../../images/covers/005cover.jpg"
- - "../../images/person.png"
+image:
+  - "../../images/covers/005cover.jpg"
+  - "../../images/person.png"
 tags:
   - Civilization
 ---
 
-In the <a href="" class="link">pervious article</a>, I emphasised why a Bharatiya Narrative is needed. Not only to preserve the ancient Bharatiya glory, but also to counter blatant misinformation. In this blog, I shall try to express how to accomplish building this narrative.
+In the <a href="https://le-raunack.github.io/MiscellaneousBlogs/building-a-bharatiya-narrative-why-is-it-needed" class="link">pervious article</a>, I emphasised why a Bharatiya Narrative is needed. Not only to preserve the ancient Bharatiya glory, but also to counter blatant misinformation. In this blog, I shall try to express how to accomplish building this narrative.
 <br><br>
 As mentioned earlier, misinformation and misappropriation of Dharmic ethics and history have been institutionalized in our education system and entertainment media. This should be of no surprise to anyone. Anyone who who has a contention, I ask you: Have you ever heard of Bappa Rawal? Or do you have any idea how the Maratha-Muslim war played out for the generation and a half that it lasted? These are not stories from remote corners of the history, but, an Indian, by the very (de)merit of his education system will not know about these things while an American will know all about the Civil War and Japanese will know about his history. Because such a suppression of information has not been carried out elsewhere. Of course, I dont expect 7<sup>th</sup> grade children to learn, to even taught about literally every major thing that happened on the ancient Indian land but such general absence of great heroes deters an average Hindu child from being proud of his heritage.
 <br><br>
-Another white-washing of history is done through entertainment media, especially movies. Everybody has heard of *Mughal-E-Azam*. Ah. Such a romantic story. Or also consider the many tales of *Jodha and Akbar* or *Akbar and Birbal*. Fucking Akbar. If you have been paying attention to what this article is aiming for, yes, these are all false. They have *some* basis like Birbal did exist as one of Akbar's ministers and the princess of Jaipur's king, Harku Bai was indeed married off to Akbar. But in the minds of an average Indian, these stories are of great romance and ingenuity. Not forced conversions, humiliation of Hindus and corruption of ethics. Recently, a new twitter handle has emerged, <a href="https://twitter.com/GemsOfBollywood" class="link">Gems of Bollywood</a>, that highlights such mockery and misrepresentation of Dharmics. Not that it matters, but I personally think they are a bit too emotional in their approach but their work has indeed proven one thing: Bollywood enjoys misappropriating Hinduism and Hindus.
+Another white-washing of history is done through entertainment media, especially movies. Everybody has heard of _Mughal-E-Azam_. Ah. Such a romantic story. Or also consider the many tales of _Jodha and Akbar_ or _Akbar and Birbal_. Fucking Akbar. If you have been paying attention to what this article is aiming for, yes, these are all false. They have _some_ basis like Birbal did exist as one of Akbar's ministers and the princess of Jaipur's king, Harku Bai was indeed married off to Akbar. But in the minds of an average Indian, these stories are of great romance and ingenuity. Not forced conversions, humiliation of Hindus and corruption of ethics. Recently, a new twitter handle has emerged, <a href="https://twitter.com/GemsOfBollywood" class="link">Gems of Bollywood</a>, that highlights such mockery and misrepresentation of Dharmics. Not that it matters, but I personally think they are a bit too emotional in their approach but their work has indeed proven one thing: Bollywood enjoys misappropriating Hinduism and Hindus.
 <br><br>
 There is also the internet bias and this very stupid glorification of the West. It's one thing that Indians are unaware of their own true history, but holy shit, guys, do you not know why the West is so rich? It's not because they are liberal or progressive, whatever those words might mean in current times. Their wealth was built in exchange of demolition of other civilizations. Nothing more, nothing less. The internet bias, too, inherently is Western in nature because people from the West dominate it. I won't expand on this right here, in another blog perhaps.
 <br><br>
-Above are *some* common examples that create historical amnesia amongst Hindus. I can also provide the example of glorification of Mughal architectures over Dharmic ones or the humiliation of Hindus on the basis of their festivals and so on.
+Above are _some_ common examples that create historical amnesia amongst Hindus. I can also provide the example of glorification of Mughal architectures over Dharmic ones or the humiliation of Hindus on the basis of their festivals and so on.
 <br><br>
 So. What can one do to combat these things? An average, middle-class Bharatiya can't drastically bring changes to these institutions themselves, because these institutions continue to be controlled by people who have NO regards for Dharma. Now, sure, there can be reforms in education system but if that were to be the case, it would have already happened. Bollywood has the "right-to-expression" pass and internet is not controlled by one entity (well, at least to some extent). No, an average, middle-class Bharatiya can not bring reforms directly in these. What can be done, though, is to bring about change in the society which, in turn will bring about changes in these institutions.
 <br><br>
@@ -27,4 +27,4 @@ Learn. Because the first thing that is needed is for **you** to know about your 
 <br><br>
 But, then you might pose a question, when these institutions have been taken over by "bad" people, where do you learn this "true" history that I talk about? That's a very good question. And one that needs another article to cover. So between this and the next one, go read about Maharaja Lalitaditya Muktapida. And no, just not from Wikipedia.
 <br><br>
-*[to be continued]*
+_[to be continued]_
