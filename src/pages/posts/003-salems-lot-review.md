@@ -6,6 +6,7 @@ image:
  - "../../images/covers/003cover.jpg"
  - "../../images/noimage_person.png"
 tags:
+  - Book
   - Reviews
 ---
 
