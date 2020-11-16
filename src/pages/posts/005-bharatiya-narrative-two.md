@@ -1,5 +1,5 @@
 ---
-title: "Building a Bharatiya Narrative - What is needed?"
+title: "Building a Bharatiya Narrative - What can be done?"
 date: 2020-11-10 20:30:00
 author: "Raunack Tripathi"
 image:
