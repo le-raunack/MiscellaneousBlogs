@@ -1,6 +1,6 @@
 ---
 title: "A Review of Stephen King's The Shining"
-date: 2020-11- 20:30:00
+date: 2020-11-25 20:30:00
 author: "Shubham Gupta"
 image:
   - "../../images/covers/010cover.jpg"
