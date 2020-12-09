@@ -1,14 +1,14 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://le-raunack.github.io/MiscellaneousBlogs">
-    <img alt="MiscBlogs" src="C:\Users\Raunack\Desktop\gatsby-app\gatsby_blog\src\images\cover.jpg" />
+    <img alt="MiscBlogs" src="../images/cover.jpg" />
   </a>
 </p>
 <h1 align="center">
   Miscellaneous Blogs
 </h1>
 
-Welcome to Miscellaneous Blogs! Blogs for literally anything!
+Welcome to Miscellaneous Blogs! Blogs for literally anything!!
 
 ## 💫 Deploy
 

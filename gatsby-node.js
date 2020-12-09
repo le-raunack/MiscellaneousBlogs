@@ -2,8 +2,8 @@ const { slugify } = require("./src/util/utilityFunctions")
 const path = require("path")
 const _ = require("lodash")
 
-if (process.env.NODE_ENV === "development")
-  process.env.GATSBY_WEBPACK_PUBLICPATH = "/"
+// if (process.env.NODE_ENV === "development")
+//   process.env.GATSBY_WEBPACK_PUBLICPATH = "/"
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
