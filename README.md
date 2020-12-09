@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://le-raunack.github.io/MiscellaneousBlogs">
-    <img alt="MiscBlogs" src="https://le-raunack.github.io/MiscellaneousBlogs/static/index-page-cover-2c459da032db6030d4dd1efb369e5606.png" width="128px" height="128px"/>
+    <img alt="MiscBlogs" src="https://le-raunack.github.io/MiscellaneousBlogs/static/index-page-cover-2c459da032db6030d4dd1efb369e5606.png" width="256px" height="256px"/>
   </a>
 </p>
 <h1 align="center">
