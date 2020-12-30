@@ -7,7 +7,7 @@
   </a>
 </p>
 
-Welcome to Miscellaneous Blogs! Blogs for literally anything!!
+Welcome to Miscellaneous Blogs! Blogs for literally anything!! 
 
 
 <!-- ## 💫 Deploy
