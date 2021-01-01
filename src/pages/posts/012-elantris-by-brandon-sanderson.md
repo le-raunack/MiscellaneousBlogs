@@ -1,6 +1,6 @@
 ---
 title: "A Review of Elantris by Brandon Sanderson"
-date: 2020-11-06 20:30:00
+date: 2020-12-30 20:30:00
 author: "Shubham Gupta"
 image: 
  - "../../images/covers/012cover.jpg"
