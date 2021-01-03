@@ -12,8 +12,8 @@ tags:
 
 <em>“You must be Arha, or you must be Tenar, you cannot be both.”</em>
 <br>
-~ Sparrowhawk
-
+~ Sparrowhawk.
+<br><br>
 These words would probably mean nothing to you without proper context. But reading this book on the first day of 2021 – having gone through some tough days – this line hit pretty close to home for me. Ursula K. le Guin’s <em>The Tombs of Atuan</em> – my word, this book is fantastic!
 <br><br>
 A little girl - thought to be the reincarnation of the high priestess of the Tombs of Atuan – is taken from her home in order to raise her to be the new high priestess of the <em>Kargish</em> Empire. Stripped of her name, she is consecrated into the service of the <em>Nameless One</em> and henceforth goes by the name <em>Arha</em>. She grows up within the walls of the tomb being taught her various duties, performing various rituals, exploring the vast labyrinth of the tomb and brutally punishing “unbelievers” whenever needed. Despite her apparent luxury, Arha lives a life of loneliness and isolation. Her world is disrupted when she meets a man – an intruder in the Tombs of Atuan – one who goes by the name of <em>Sparrowhawk</em>.
