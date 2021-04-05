@@ -7,11 +7,11 @@ image:
   - "../../images/noimage_person.png"
 tags:
   - Book
-  - Review
+  - Reviews
 ---
 
 
-In my review of “The Final Empire” I said how I found the book to be underwhelming. I said how the characters felt lacking and many of the events seemed pointless. Oh, poor ol’ me from 2020, if only you knew what Mistborn had in store for you…
+In my <a href="https://le-raunack.github.io/MiscellaneousBlogs/a-review-of-the-final-empire-mistborn-1" class="link">review of “The Final Empire”</a> I said how I found the book to be underwhelming. I said how the characters felt lacking and many of the events seemed pointless. Oh, poor ol’ me from 2020, if only you knew what Mistborn had in store for you…
 I hoped the second book would change my opinion on the series. It not only did exactly that but also made me rethink the events of The Final Empire and suddenly a lot of things got re-contextualized. The Dark Lord’s reign and Kelsier’s plan to take him down, the history of the “Hero of Ages”, the entire premise of Mistborn and the way Sanderson pitches the series on his Youtube channel, all of it a ruse to distract the reader from the real on-goings of this world. And it's a ruse that does its job well. 
 The Well of Ascension is a book that, at first, seems to do everything better than the first book. A much better plotline, the characters being way more likeable, better exploration of the world and a much more satisfying climax. And then Sanderson plays the Reverse Uno card and turns all of the reader’s expectations on their head, leaving them dumbstruck at the revelation that brings with it massive consequences.
 <br><br>
