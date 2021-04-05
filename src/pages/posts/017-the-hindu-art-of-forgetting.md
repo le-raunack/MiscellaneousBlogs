@@ -24,4 +24,4 @@ Hindus think a family of 4 is ideal, with that number being cut down in increasi
 <br><br>
 The ancient people couldn't be more different than the modern Hindus, who only maybe Hindus in name because the sacrosanct Constitution of India does not allow for atheism. They remembered each and every word of their history, fantastical or not. History is the <em>pramana</em> of prosperity of Hindu civilization. The point is not to get stuck in the rosy days of unparalleled days of past, but to learn from it. To know your history is to know what you inherit and what you are. Be it not important for non-Hindus, but for the inheritors of Vedic civilization, it is paramount to know yourself through the lens of history. For that is how it has eternally been.
 <br><br>
-<em>Source for opening: A Forgotten History by Robert Sewell, pg 61</em>
+<em>Source for opening: A Forgotten Empire by Robert Sewell, pg 61</em>
