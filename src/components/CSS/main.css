@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Glegoo');
+
 * {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", "Glegoo";
   text-decoration: none;
   color: black;
 }

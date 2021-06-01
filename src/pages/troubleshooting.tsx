@@ -23,6 +23,13 @@ const Troubleshooting: React.FC = () => {
         this site handles images. A quick solution to this is clearing your
         cache and reloading the site (press CTRL + F5 on PC).
       </p>
+      <h2 style={marginStyle}>Language Barriers</h2>
+      <p>
+        This is an issue with blog titles crashing the blogsite if they are in
+        different scripts. So for example, "Pranama" will work fine but "प्रणाम"
+        will break the page. For now, the blog titles have to be retained in
+        English language or at least the latin script.
+      </p>
     </Layout>
   )
 }
